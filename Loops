@@ -1,0 +1,130 @@
+import java.util.Scanner;
+
+public class Loops {
+
+    public static void main(String[] args){
+        Scanner scan=new Scanner(System.in);
+        System.out.println("Enter a Number");
+       int n = scan.nextInt();
+        int r;
+        while(n>0)
+        {                         // Reverse number
+            r=n%10;
+            n=n/10;
+            System.out.println(r);
+        }
+     //   int m=n;
+    //    int sum=0;
+        //    int r;
+     //   while(n>0)
+    //    {
+      //      r=n%10;
+      //      n=n/10;
+
+     //       sum=sum+r*r*r;
+    //    }
+      //  if(sum==m)
+     //       System.out.println("Its a Armstrong Number");
+     //   else
+     //       System.out.println("Its not an Armsttrong Number");
+
+        //    int n=scan.nextInt();
+    //    int count=0;
+    //    while(n>0)
+    //    {
+    //        n=n/10;
+    //        count++;
+     //   }
+    //    System.out.println(count);
+    }
+
+}
+
+        //Loops
+        //   System.out.println("1");
+        //   System.out.println("2");
+        //   System.out.println("3");
+
+        //1-100
+
+
+      //  int sum = 0;
+
+      //  for (int i = 1; i <= n; i++) {
+   //         sum = sum + i;
+    //    }
+
+     //   System.out.println("Sum of " + n + " Number is " + sum);
+
+
+   // }
+
+
+     //   long fact=1;
+
+     //   for(int i=1;i<=n;i++)
+     //   {
+      //      fact=fact*i;
+    //    }
+
+    //    System.out.println("Factorial is "+fact);
+
+   // }
+
+       // for (int i = 0, j = 1; i <= 10; i++, j = j * 2) {
+        //    System.out.println(i+" "+j);
+
+      //  }
+
+
+
+            //While Loop
+        //    int j = 100;
+        //    while (j >= 1) {
+        //        System.out.println(j);
+          //      j = j - 1;
+          //  }
+
+            // Do While
+      //  int k = 100;
+        //    do {
+          //      System.out.println(k);
+        //        k = k - 1;
+       //     } while (k >= 1);
+
+       // Scanner sc = new Scanner(System.in);
+
+    //    int number = 0;
+      //  do {
+        //    System.out.println("input a number");
+          //  number = sc.nextInt();
+          //  System.out.println("here is your number :");
+           // System.out.println(number);
+         // } while(number >=0);
+
+       // System.out.println("THE END");
+
+   //     //BREAK AND CONTINUE
+   //     int i = 0;
+   //     while (true) {
+   //         if (i == 3) {
+        //
+        //            i = i + 1;
+       //         continue;
+        //    }
+        //    System.out.println(i);
+        //    i = i + 1;
+        //    if(i > 5) {
+        //         break;
+
+        //Try and Catch Exeception handling
+       //  int [] marks = {97,95,98};
+     //    try {
+      //       System.out.println(marks[5]);
+      //   } catch (Exception exception ) {
+             // do something after catching
+     //    }
+    //    System.out.println("The name is harshil");
+
+    //    }
+     //    }
